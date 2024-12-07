@@ -1,0 +1,25 @@
+{
+  "name": "wedding-resorts-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "dotenv": "^16.4.7",
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^0.321.0",
+    "next": "^13.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-next": "^13.4.2"
+  }
+}
