@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Layout from '../components/Layout';
 import { sendContactEmail } from '../utils/emailService';
 
 const ContactPage = () => {
@@ -48,7 +47,7 @@ const ContactPage = () => {
   };
 
   return (
-    <Layout>
+    
       <div className="container mx-auto px-4 py-12 grid md:grid-cols-2 gap-8">
         <div>
           <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
@@ -149,7 +148,7 @@ const ContactPage = () => {
           </button>
         </form>
       </div>
-    </Layout>
+    
   );
 };
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import Layout from '../components/Layout';
 import HeroSection from '../components/HeroSection';
 import ServiceCard from '../components/ServiceCard';
 import TestimonialCarousel from '../components/TestimonialCarousel';
@@ -9,7 +8,7 @@ import { COLORS, SERVICES, TESTIMONIALS } from '../utils/constants';
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <Head>
         <title>Luxe Wedding Resorts | Your Dream Destination</title>
         <meta name="description" content="Elegant wedding destination for your perfect day" />
@@ -45,6 +44,6 @@ export default function Home() {
       </motion.section>
 
       <TestimonialCarousel testimonials={TESTIMONIALS} />
-    </Layout>
+    </>
   );
 }
