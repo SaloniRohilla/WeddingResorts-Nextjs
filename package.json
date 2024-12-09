@@ -1,9 +1,12 @@
 {
   "name": "wedding-resorts-website",
+  "homepage": "https://SaloniRohilla.github.io/WeddingResorts-Nextjs",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -20,6 +23,7 @@
   },
   "devDependencies": {
     "eslint": "^8.39.0",
-    "eslint-config-next": "^13.4.2"
+    "eslint-config-next": "^13.4.2",
+    "gh-pages": "^6.2.0"
   }
 }
